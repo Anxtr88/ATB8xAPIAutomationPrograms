@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Anster/Course/Automation/IdeaProjects/ATB8xAPIAutomationPrograms">
+        <classes>
+            <class name="com.APITestingPrograms.RestAssuredBasics.Get.APITesting_BDDStyle">
+                <methods>
+                    <include name="test_GET_Request"/>
+                </methods>
+            </class>
+
+            <class name="com.APITestingPrograms.RestAssuredBasics.Get.API_BDDStyle_GET">
+            </class>
+        </classes>
+    </test>
+</suite>
