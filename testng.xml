@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="D:/Anster/Course/Automation/IdeaProjects/ATB8xAPIAutomationPrograms">
+    <test verbose="2" preserve-order="true"
+          name="D:/Anster/Course/Automation/IdeaProjects/ATB8xAPIAutomationPrograms/src/test/java/com/APITestingPrograms/TestNGEx">
         <classes>
-            <class name="com.APITestingPrograms.RestAssuredBasics.Get.APITesting_BDDStyle">
+            <class name="com.APITestingPrograms.TestNGEx.APITestNG_Annotation">
                 <methods>
-                    <include name="test_GET_Request"/>
+                    <include name="test1"/>
                 </methods>
             </class>
 
-            <class name="com.APITestingPrograms.RestAssuredBasics.Get.API_BDDStyle_GET">
+            <class name="com.APITestingPrograms.TestNGEx.APITestNG_Annotation">
+                <methods>
+                    <include name="test2"/>
+                </methods>
             </class>
         </classes>
     </test>
