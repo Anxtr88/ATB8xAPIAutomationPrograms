@@ -8,6 +8,7 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.hamcrest.Matchers;
+
 import static org.assertj.core.api.Assertions.*;
 
 public class APITesting014_Assertions_REAL {
@@ -61,8 +62,6 @@ public class APITesting014_Assertions_REAL {
 
         assertThat(bookingID).isNotNull().isPositive().isNotZero();
         assertThat(firstname).isEqualTo("Pramod").isNotNull().isNotBlank().isNotEmpty().isAlphanumeric();
-
-
 
 
     }
